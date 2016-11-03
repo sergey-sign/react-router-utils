@@ -1,0 +1,2 @@
+module.exports = 
+  UPDATE_LOCATION: '@ROUTING.UPDATE_LOCATION'

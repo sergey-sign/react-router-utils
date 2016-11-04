@@ -1,6 +1,7 @@
 qs = require 'qs'
 
 module.exports =
+  queryKey: false
   parseQueryString: (queryString) ->
     qs.parse queryString
   stringifyQuery: (query) ->

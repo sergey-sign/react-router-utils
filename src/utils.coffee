@@ -1,5 +1,5 @@
 module.exports =
-  redux:
-    updateHandler: require './redux/updateHandler'
-    reducer: require './redux/reducer'
+  reduxUpdateHandler: require './redux/updateHandler'
+  reduxReducer: require './redux/reducer'
   routerOptions: require './routerOptions'
+  syncRootComponent: require './redux/syncRootComponent'

@@ -9,8 +9,8 @@ module.exports = (Component, connect, reducerPath = 'router') ->
     shouldComponentUpdate: (props) ->
       props.historyInSync
     render: ->
-      <Component {...@props}/>
-  
+      React.createElement Component, @props
+
   mapState = (state, props) ->
     locationEqual = isEqual(state, props, 'location')
     paramsEqual = isEqual(state, props, 'params')
